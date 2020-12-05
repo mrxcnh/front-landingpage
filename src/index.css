@@ -123,6 +123,14 @@
   border: 0;
   background-color: #f4511e;
 }
+.icon-inline {
+  margin-top: 5px;
+  display: inline;
+}
+.icon-container {
+  margin-right: 10px;
+  margin-left: 5px;
+}
 
 @media only screen and (min-width:320px) and (max-width:725px){
   .contact-form{
@@ -163,4 +171,15 @@
   .img-holder {
     display: none;
   }
+}
+
+@media only screen and (max-width: 445px){
+  .header-title{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .header-text{
+    margin-top: 25px;
+    font-size: 16px;
+  }  
 }
